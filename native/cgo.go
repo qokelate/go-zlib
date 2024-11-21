@@ -1,6 +1,6 @@
 package native
 
 /*
-#cgo pkg-config: zlib
+#cgo LDFLAGS: -lz
 */
 import "C"
